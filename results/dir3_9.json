@@ -1,0 +1,408 @@
+{
+ "base_median": 0.8117816091954022,
+ "dir3": {
+  "study_from_controls_acc": 0.854,
+  "majority": 0.154,
+  "strong_cohort_signal": true,
+  "loco_within_cohort_z": {
+   "AT-CRC": 0.875,
+   "CN-CRC": 0.877,
+   "DE-CRC": 0.872,
+   "FR-CRC": 0.834,
+   "IT-CRC": 0.828,
+   "IT-CRC-2": 0.806,
+   "JP-CRC": 0.81,
+   "US-CRC": 0.731,
+   "US-CRC-2": 0.63
+  },
+  "median_z": 0.828,
+  "helps": false
+ },
+ "dir4": {
+  "5": {
+   "median": 0.776,
+   "min": 0.654
+  },
+  "10": {
+   "median": 0.773,
+   "min": 0.63
+  },
+  "20": {
+   "median": 0.8,
+   "min": 0.585
+  },
+  "50": {
+   "median": 0.799,
+   "min": 0.58
+  },
+  "smallest_k_within_0.02": 20
+ },
+ "dir5": {
+  "Fusobacterium nucleatum": {
+   "feature": "Fusobacterium nucleatum s. animalis [ref_mOTU_v2_0776]",
+   "cohorts_enriched_in_CRC": 9,
+   "replicates": true,
+   "per_cohort": {
+    "AT-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "CN-CRC": {
+     "up": 1,
+     "p": 0.0001
+    },
+    "DE-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "FR-CRC": {
+     "up": 1,
+     "p": 0.0001
+    },
+    "IT-CRC": {
+     "up": 1,
+     "p": 0.1229
+    },
+    "IT-CRC-2": {
+     "up": 1,
+     "p": 0.0096
+    },
+    "JP-CRC": {
+     "up": 1,
+     "p": 0.0098
+    },
+    "US-CRC": {
+     "up": 1,
+     "p": 0.0014
+    },
+    "US-CRC-2": {
+     "up": 1,
+     "p": 0.1611
+    }
+   }
+  },
+  "Parvimonas micra": {
+   "feature": "Parvimonas micra [ref_mOTU_v2_1145]",
+   "cohorts_enriched_in_CRC": 9,
+   "replicates": true,
+   "per_cohort": {
+    "AT-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "CN-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "DE-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "FR-CRC": {
+     "up": 1,
+     "p": 0.0021
+    },
+    "IT-CRC": {
+     "up": 1,
+     "p": 0.1229
+    },
+    "IT-CRC-2": {
+     "up": 1,
+     "p": 0.0002
+    },
+    "JP-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "US-CRC": {
+     "up": 1,
+     "p": 0.0323
+    },
+    "US-CRC-2": {
+     "up": 1,
+     "p": 0.3349
+    }
+   }
+  },
+  "Peptostreptococcus stomatis": {
+   "feature": "Peptostreptococcus stomatis [ref_mOTU_v2_4614]",
+   "cohorts_enriched_in_CRC": 9,
+   "replicates": true,
+   "per_cohort": {
+    "AT-CRC": {
+     "up": 1,
+     "p": 0.0003
+    },
+    "CN-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "DE-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "FR-CRC": {
+     "up": 1,
+     "p": 0.0115
+    },
+    "IT-CRC": {
+     "up": 1,
+     "p": 0.245
+    },
+    "IT-CRC-2": {
+     "up": 1,
+     "p": 0.0122
+    },
+    "JP-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "US-CRC": {
+     "up": 1,
+     "p": 0.0053
+    },
+    "US-CRC-2": {
+     "up": 1,
+     "p": 0.5426
+    }
+   }
+  },
+  "Gemella morbillorum": {
+   "feature": "Gemella morbillorum [ref_mOTU_v2_4513]",
+   "cohorts_enriched_in_CRC": 9,
+   "replicates": true,
+   "per_cohort": {
+    "AT-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "CN-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "DE-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "FR-CRC": {
+     "up": 1,
+     "p": 0.0034
+    },
+    "IT-CRC": {
+     "up": 1,
+     "p": 0.1822
+    },
+    "IT-CRC-2": {
+     "up": 1,
+     "p": 0.0001
+    },
+    "JP-CRC": {
+     "up": 1,
+     "p": 0.0002
+    },
+    "US-CRC": {
+     "up": 1,
+     "p": 0.054
+    },
+    "US-CRC-2": {
+     "up": 1,
+     "p": 0.2436
+    }
+   }
+  },
+  "Solobacterium moorei": {
+   "feature": "Solobacterium moorei [ref_mOTU_v2_0531]",
+   "cohorts_enriched_in_CRC": 9,
+   "replicates": true,
+   "per_cohort": {
+    "AT-CRC": {
+     "up": 1,
+     "p": 0.0453
+    },
+    "CN-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "DE-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "FR-CRC": {
+     "up": 1,
+     "p": 0.0258
+    },
+    "IT-CRC": {
+     "up": 1,
+     "p": 0.1437
+    },
+    "IT-CRC-2": {
+     "up": 1,
+     "p": 0.0057
+    },
+    "JP-CRC": {
+     "up": 1,
+     "p": 0.0147
+    },
+    "US-CRC": {
+     "up": 1,
+     "p": 0.1998
+    },
+    "US-CRC-2": {
+     "up": 1,
+     "p": 0.0417
+    }
+   }
+  },
+  "Porphyromonas asaccharolytica": {
+   "feature": "Porphyromonas asaccharolytica [ref_mOTU_v2_1517]",
+   "cohorts_enriched_in_CRC": 9,
+   "replicates": true,
+   "per_cohort": {
+    "AT-CRC": {
+     "up": 1,
+     "p": 0.0029
+    },
+    "CN-CRC": {
+     "up": 1,
+     "p": 0.0561
+    },
+    "DE-CRC": {
+     "up": 1,
+     "p": 0.0
+    },
+    "FR-CRC": {
+     "up": 1,
+     "p": 0.0032
+    },
+    "IT-CRC": {
+     "up": 1,
+     "p": 0.0361
+    },
+    "IT-CRC-2": {
+     "up": 1,
+     "p": 0.1243
+    },
+    "JP-CRC": {
+     "up": 1,
+     "p": 0.0428
+    },
+    "US-CRC": {
+     "up": 1,
+     "p": 0.0604
+    },
+    "US-CRC-2": {
+     "up": 1,
+     "p": 0.3844
+    }
+   }
+  }
+ },
+ "dir7": {
+  "log": {
+   "median": 0.812,
+   "min": 0.594
+  },
+  "raw": {
+   "median": 0.679,
+   "min": 0.587
+  },
+  "pa": {
+   "median": 0.717,
+   "min": 0.595
+  },
+  "clr": {
+   "median": 0.802,
+   "min": 0.608
+  }
+ },
+ "dir8": {
+  "AT-CRC": {
+   "spec_at_90sens": 0.619,
+   "brier": 0.148
+  },
+  "CN-CRC": {
+   "spec_at_90sens": 0.556,
+   "brier": 0.165
+  },
+  "DE-CRC": {
+   "spec_at_90sens": 0.483,
+   "brier": 0.161
+  },
+  "FR-CRC": {
+   "spec_at_90sens": 0.443,
+   "brier": 0.192
+  },
+  "IT-CRC": {
+   "spec_at_90sens": 0.458,
+   "brier": 0.182
+  },
+  "IT-CRC-2": {
+   "spec_at_90sens": 0.25,
+   "brier": 0.214
+  },
+  "JP-CRC": {
+   "spec_at_90sens": 0.575,
+   "brier": 0.183
+  },
+  "US-CRC": {
+   "spec_at_90sens": 0.231,
+   "brier": 0.203
+  },
+  "US-CRC-2": {
+   "spec_at_90sens": 0.036,
+   "brier": 0.334
+  },
+  "pooled_brier": 0.189
+ },
+ "dir9": {
+  "n_complete": 752,
+  "cohorts": {
+   "AT-CRC": 109,
+   "CN-CRC": 127,
+   "DE-CRC": 120,
+   "FR-CRC": 110,
+   "IT-CRC": 50,
+   "IT-CRC-2": 0,
+   "JP-CRC": 80,
+   "US-CRC": 101,
+   "US-CRC-2": 55
+  },
+  "per_cohort": {
+   "AT-CRC": {
+    "cov_only": 0.483,
+    "micro": 0.875
+   },
+   "CN-CRC": {
+    "cov_only": 0.652,
+    "micro": 0.883
+   },
+   "DE-CRC": {
+    "cov_only": 0.628,
+    "micro": 0.861
+   },
+   "FR-CRC": {
+    "cov_only": 0.66,
+    "micro": 0.805
+   },
+   "IT-CRC": {
+    "cov_only": 0.694,
+    "micro": 0.836
+   },
+   "JP-CRC": {
+    "cov_only": 0.397,
+    "micro": 0.831
+   },
+   "US-CRC": {
+    "cov_only": 0.497,
+    "micro": 0.734
+   },
+   "US-CRC-2": {
+    "cov_only": 0.627,
+    "micro": 0.585
+   }
+  },
+  "median_cov": 0.627,
+  "median_micro": 0.833,
+  "gate_micro_adds_0.03": true
+ }
+}
