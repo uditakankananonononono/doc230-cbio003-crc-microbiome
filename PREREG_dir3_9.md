@@ -5,3 +5,6 @@ Dir5 known taxa: Fusobacterium nucleatum, Parvimonas micra, Peptostreptococcus s
 Dir7 transforms: LOCO with (i) log10 rel abund (baseline), (ii) raw rel abund, (iii) presence/absence (>=1e-3), (iv) CLR with pseudocount 1e-5. Report medians; no winner threshold, descriptive.
 Dir8 calibration/screening: pooled LOCO predictions; report specificity at 90% sensitivity per cohort and pooled Brier score before/after nothing (no recalibration). Descriptive.
 Dir9 covariates: on cohorts with complete Age,Gender,BMI, LOCO AUROC of covariates-only LR vs microbiome-only vs combined. Gate: microbiome adds >=0.03 AUROC over covariates-only.
+
+# Direction 6 (added before scoring, 2026-10-08)
+Cohorts with adenoma (ADA) labels: AT-CRC, FR-CRC, IT-CRC, US-CRC-2. (a) ADA vs CTR leave-one-cohort-out among these 4 (same LR). Gate: median AUROC >= 0.65. (b) Score ADA vs CTR with the CRC-vs-CTR model trained on the other 8 cohorts (no ADA seen); gate median >= 0.60. Descriptive: score ordering CTR < ADA < CRC median per cohort.
