@@ -8,3 +8,6 @@ Dir9 covariates: on cohorts with complete Age,Gender,BMI, LOCO AUROC of covariat
 
 # Direction 6 (added before scoring, 2026-10-08)
 Cohorts with adenoma (ADA) labels: AT-CRC, FR-CRC, IT-CRC, US-CRC-2. (a) ADA vs CTR leave-one-cohort-out among these 4 (same LR). Gate: median AUROC >= 0.65. (b) Score ADA vs CTR with the CRC-vs-CTR model trained on the other 8 cohorts (no ADA seen); gate median >= 0.60. Descriptive: score ordering CTR < ADA < CRC median per cohort.
+
+# Direction 10 (added before scoring)
+KEGG ortholog profiles from the same Zenodo record: discovery file (5 cohorts AT, CN, DE, FR, US) and external file (IT, IT-2, JP, US-2). Same LR (L1, C=0.1, log10 rel. abundance after row-sum normalisation, features with max >=1e-4 in training; species threshold 1e-3). Compare with species on the SAME samples. (a) LOCO within the 5 discovery cohorts, KEGG vs species. (b) Train on the 5 discovery cohorts, test on each external CTR/CRC cohort. Gate: function counts as better only if median AUROC exceeds species by >=0.02 in both (a) and (b).

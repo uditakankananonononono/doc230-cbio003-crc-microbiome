@@ -1,0 +1,55 @@
+{
+ "cohort_n": {
+  "AT-CRC": 109,
+  "CN-CRC": 128,
+  "DE-CRC": 120,
+  "FR-CRC": 114,
+  "IT-CRC": 53,
+  "IT-CRC-2": 60,
+  "JP-CRC": 80,
+  "US-CRC": 104
+ },
+ "a": {
+  "AT-CRC": {
+   "species": 0.845,
+   "kegg": 0.723
+  },
+  "CN-CRC": {
+   "species": 0.861,
+   "kegg": 0.831
+  },
+  "DE-CRC": {
+   "species": 0.916,
+   "kegg": 0.819
+  },
+  "FR-CRC": {
+   "species": 0.827,
+   "kegg": 0.835
+  },
+  "US-CRC": {
+   "species": 0.729,
+   "kegg": 0.804
+  }
+ },
+ "b": {
+  "IT-CRC": {
+   "species": 0.806,
+   "kegg": 0.71
+  },
+  "IT-CRC-2": {
+   "species": 0.78,
+   "kegg": 0.703
+  },
+  "JP-CRC": {
+   "species": 0.814,
+   "kegg": 0.782
+  }
+ },
+ "summary": {
+  "a_species": 0.845,
+  "a_kegg": 0.819,
+  "b_species": 0.806,
+  "b_kegg": 0.71,
+  "function_better_gate": false
+ }
+}
