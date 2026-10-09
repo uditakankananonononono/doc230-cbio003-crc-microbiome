@@ -7,3 +7,6 @@ Dir7 transforms, LOCO median (min): log10 0.812 (0.594), CLR 0.802 (0.608), pres
 Dir8 screening view (pooled LOCO predictions, no recalibration): specificity at 90% sensitivity ranges 0.036 (US-CRC-2) to 0.619 (AT); median ~0.46. Pooled Brier 0.189. Not screening-grade: at 90% sensitivity most cohorts lose over half of controls.
 Dir9 covariates (age, sex, BMI; 8 cohorts, n=752 complete; IT-2 has none): covariates-only LOCO median 0.627, microbiome 0.833; gate (+0.03) met. US-CRC-2 is the exception (0.627 vs 0.585).
 Limits: one model family, fixed C, species-level mOTUs2, CTR vs CRC only, no external non-Wirbel cohort. Nothing here is a new finding.
+
+
+> CHRONOLOGY CAVEAT (added 2026-10-10): the prereg-before-scoring order cannot be verified from git history. PREREG and results were committed in the same commits (98e4d15, 4dfe993, 7dd19ae, ae557bd, about 4 minutes apart on 10-08, author-set dates), and the 'Direction 6/10 added before scoring' notes are self-reported inside those result commits. Read the gates as author-stated, not verified preregistration. Wording correction only; no numbers or JSON changed.
